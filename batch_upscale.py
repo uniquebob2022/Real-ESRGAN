@@ -18,7 +18,7 @@ def upscale_image(input_path, output_path, model="RealESRGAN_x4plus_anime_6B", s
 
         # 执行命令
         cmd = [
-            "python", "inference_realesrgan.py",
+            "python3", "inference_realesrgan.py",
             "-n", model,
             "-s", str(scale),
             "-i", str(input_path),
